@@ -1,0 +1,179 @@
+ERROR - 2022-03-30 01:43:50 --> Champ 'motPasse' inconnu dans field list
+CRITICAL - 2022-03-30 06:09:40 --> Class 'App\Controllers\Time' not found
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:24:56 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:25:52 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:26:46 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:32:34 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:34:50 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:34:56 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:41:39 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:42:09 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:43:22 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:44:31 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:44:37 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 06:45:22 --> Call to a member function getPost() on null
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->ajouterTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-30 06:46:22 --> Le champ 'idResponsable' ne peut être vide (null)
+ERROR - 2022-03-30 06:58:47 --> Le champ 'idResponsable' ne peut être vide (null)
+CRITICAL - 2022-03-30 08:14:36 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\tontine\app\Views\adherent\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\t...', 30, Array)
+#1 C:\wamp64\www\tontine\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/index', Array, true)
+#4 C:\wamp64\www\tontine\app\Controllers\Adherent.php(21): view('adherent/index')
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->index()
+#6 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 09:49:35 --> Too few arguments to function App\Controllers\Adherent::modifierTontine(), 0 passed in C:\wamp64\www\tontine\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine()
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 09:52:44 --> Call to undefined method App\Models\TontineModel::tontine
+#0 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): CodeIgniter\Model->__call('tontine', Array)
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('3')
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 09:56:40 --> Call to undefined method App\Models\TontineModel::tontine
+#0 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): CodeIgniter\Model->__call('tontine', Array)
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('3')
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 10:01:48 --> Call to undefined method App\Models\TontineModel::tontine
+#0 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): CodeIgniter\Model->__call('tontine', Array)
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('3')
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 10:03:28 --> Champ 'tontine.id' inconnu dans where clause
+CRITICAL - 2022-03-30 10:03:28 --> Call to a member function getFirstRow() on bool
+#0 C:\wamp64\www\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#1 C:\wamp64\www\tontine\app\Models\TontineModel.php(15): CodeIgniter\BaseModel->find('3')
+#2 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): App\Models\TontineModel->tontine('3')
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('3')
+#4 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-30 10:03:33 --> Champ 'tontine.id' inconnu dans where clause
+CRITICAL - 2022-03-30 10:03:33 --> Call to a member function getFirstRow() on bool
+#0 C:\wamp64\www\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#1 C:\wamp64\www\tontine\app\Models\TontineModel.php(15): CodeIgniter\BaseModel->find('3')
+#2 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): App\Models\TontineModel->tontine('3')
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('3')
+#4 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-30 10:03:39 --> Champ 'tontine.id' inconnu dans where clause
+CRITICAL - 2022-03-30 10:03:39 --> Call to a member function getFirstRow() on bool
+#0 C:\wamp64\www\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#1 C:\wamp64\www\tontine\app\Models\TontineModel.php(15): CodeIgniter\BaseModel->find('3')
+#2 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): App\Models\TontineModel->tontine('3')
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('3')
+#4 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-30 10:06:20 --> Champ 'tontine.id' inconnu dans where clause
+CRITICAL - 2022-03-30 10:06:20 --> Call to a member function getFirstRow() on bool
+#0 C:\wamp64\www\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+#1 C:\wamp64\www\tontine\app\Models\TontineModel.php(15): CodeIgniter\BaseModel->find('6')
+#2 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): App\Models\TontineModel->tontine('6')
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('6')
+#4 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-30 10:09:45 --> Champ 'tontine.id' inconnu dans where clause
+CRITICAL - 2022-03-30 10:09:45 --> Call to a member function getFirstRow() on bool
+#0 C:\wamp64\www\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+#1 C:\wamp64\www\tontine\app\Models\TontineModel.php(15): CodeIgniter\BaseModel->find('6')
+#2 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): App\Models\TontineModel->tontine('6')
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('6')
+#4 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-30 10:10:00 --> Champ 'tontine.id' inconnu dans where clause
+CRITICAL - 2022-03-30 10:10:00 --> Call to a member function getFirstRow() on bool
+#0 C:\wamp64\www\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#1 C:\wamp64\www\tontine\app\Models\TontineModel.php(15): CodeIgniter\BaseModel->find('3')
+#2 C:\wamp64\www\tontine\app\Controllers\Adherent.php(115): App\Models\TontineModel->tontine('3')
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('3')
+#4 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

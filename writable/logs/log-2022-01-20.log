@@ -1,0 +1,10 @@
+CRITICAL - 2022-01-20 11:19:17 --> Call to undefined function link_tag()
+#0 C:\wamp64\www\tontine\system\View\View.php(210): include()
+#1 C:\wamp64\www\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\wamp64\www\tontine\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

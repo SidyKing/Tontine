@@ -3,6 +3,7 @@
 namespace Config;
 
 use App\Filters\MembreFilter;
+use App\Filters\AdherentFilter;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
@@ -24,7 +25,8 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
-        'membreFilter'  =>MembreFilter::class,
+        'membreFilter'  => MembreFilter::class,
+        'adherentFilter'=> AdherentFilter::class,
     ];
 
     /**
@@ -67,6 +69,8 @@ class Filters extends BaseConfig
      * @var array
      */
     public $filters = [
-        'membreFilter'=>['before'=>['adherent','adherent/*']]
+        'membreFilter'=>['before'=>['adherent','adherent/*']],
+        'adherentFilter'=>['before'=>['adherent','adherent/*']]
+
     ];
 }

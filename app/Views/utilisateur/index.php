@@ -5,6 +5,11 @@
   <?= $validation->listErrors(); ?>
   </div>
   <?php endif; ?>
+  <?php if(session()->get('blocked')): ?>
+  <div class="row alert-danger alert" role="alert"> 
+  <?= session()->get('blocked') ?>
+  </div>
+  <?php endif; ?>
     <?php if(session()->get('success')): ?>
   <div class="row alert-success alert" role="alert"> 
   <?= session()->get('success') ?>

@@ -43,8 +43,17 @@ class Utilisateur extends BaseController
                     "login" => $user["login"],
                     "profil" => $user["profil"],
                 ];
-                session()->set($dataSession);
-                return redirect()->to(base_url($user['profil']));
+                if($user['block']=='0'){
+                    session()->set($dataSession);
+                    return redirect()->to(base_url($user['profil']));
+                }
+                else{
+                    $session=session();
+                    $session->setFlashdata('blocked','Compte bloqué ! Contactez votre administrateur');
+                    return redirect()->to('utilisateur');
+
+                }
+                
             }
         }
         echo view('layout/entete', $data);
@@ -111,5 +120,66 @@ class Utilisateur extends BaseController
         $session = session();
         $session->setFlashdata('success', 'Deconnexion réussie');
         return redirect()->to('utilisateur');
+    }
+    public function PasswordMessage()
+    {
+        $session = session();
+        $session->setFlashdata('success', 'Mot de passe modifié avec succes ! Authentifiez vous');
+        return redirect()->to('utilisateur');
+    }
+    public function modifSuccess()
+    {
+        session()->destroy();
+        return redirect()->to('utilisateur/PasswordMessage');
+    }
+    public function password()
+    {
+        $data=["titre"=>"Sama Tontine::Changer mot de passe","menuActif"=>"password"];
+
+        $modelAd= new AdherentModel();
+
+        if ($this->request->getMethod()=="post") {
+            $reglesValid=
+            ["motPasse" => [
+                "rules" => "required|min_length[6]",
+                "errors" => [
+                    "required" => "le mot de passe est obligatoire",
+                    "min_length" => "le mot de passe doit comporter au moins 6 caractères"
+                ]
+            ],
+            "motPasseConf" => [
+                "rules" => "required|matches[motPasse]",
+                "errors" => [
+                    "required" => "la confirmation du mot de passe est obligatoire",
+                    "matches" => "la confirmation doit etre identique au mot de passe"
+                ]
+            ],
+                        
+            ];
+            if (!$this->validate($reglesValid))
+            {
+                $data['validation']=$this->validator;
+            }
+            else
+            {
+                $password=[
+                    "id"=>session()->get('id'),
+                    "motDePasse"=>$this->request->getPost('motPasse')
+                ];
+
+                    $modelAd->save($password);
+                    $session= session();
+                    $session->setFlashdata('successModifPass','Mot de passe modifiée avec succès');
+                    return redirect()->to('utilisateur/modifSuccess');
+            }
+        } 
+        else {
+            
+
+        }
+
+        echo view('layout/entete', $data);
+        echo view('utilisateur/modifPassword');
+        echo view('layout/pied'); 
     }
 }

@@ -21,6 +21,14 @@ class Adherent extends BaseController
         $listeTontineResp=$model->listeTontineResp($idAdherent);
         $data["listeTontineResp"]=$listeTontineResp;
 
+        $listeMesTontines=$model->mesTontines($idAdherent);
+        $data["listeMesTontines"]=$listeMesTontines;
+        
+        $modelCot=new CotiseModel();
+        $cotisations=$modelCot->cotisations($idAdherent);
+        $data['cotisations']=$cotisations;
+
+
         echo view('layout/entete',$data);
         echo view('adherent/index');
         echo view('layout/pied');
@@ -236,4 +244,6 @@ class Adherent extends BaseController
         $session->setFlashdata('successAjCotise','cotisation enregistrée');
         return redirect()->to("adherent/tontine/$idTontine");
     }
+    
+    
 }

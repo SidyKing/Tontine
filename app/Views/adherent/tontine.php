@@ -51,6 +51,7 @@
                             <?php 
                                     endfor;
                                 endif;
+                                if($echeances):
                             ?>
                             <p class="mt-3">
                                 <a class="btn btn-warning"
@@ -59,7 +60,8 @@
                                 </a>
                             </p>
                     </li>
-                <?php endforeach; ?>
+                <?php endif;
+                        endforeach; ?>
             </ul>
          <?php endif; ?>
         </div>

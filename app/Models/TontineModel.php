@@ -23,8 +23,29 @@ class TontineModel extends Model{
         $idTon=[];
         foreach($listPart as $tp)
             $idTon[]=$tp['idTontine'];
-        if ($idTon)
+        if ($idTon){
             $this->whereNotIn("id",$idTon);
+        return $this->findAll();
+        }
+            
+    }
+    function mesTontines($idAdherent)
+    {
+        $listPart=$this->builder('participer')
+                        ->distinct()
+                        ->select('idTontine')
+                        ->where('idAdherent',$idAdherent)->get()->getResultArray();
+        $idTon=[];
+        foreach($listPart as $tp)
+            $idTon[]=$tp['idTontine'];
+        if ($idTon){
+            $this->whereIn("id",$idTon);
+        return $this->findAll();
+        }
+            
+    }
+    function nombreTontine()
+    {
         return $this->findAll();
     }
 }

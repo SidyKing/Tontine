@@ -82,12 +82,13 @@
         <ul class="nav nav-pills">
         <li class="nav-item"><a href="<?= base_url(); ?>/adherent" class="nav-link <?= $menuActif=="adherentAcc"?"active":"" ?>">Acceuil</a></li>
         <li class="nav-item"><a href="<?= base_url(); ?>/adherent/adhesion" class="nav-link <?= $menuActif=="adhesion"?"active":"" ?>">Adhésion</a></li>
+        <li class="nav-item"><a href="<?= base_url(); ?>/utilisateur/password" class="nav-link <?= $menuActif=="password"?"active":"" ?>">Mot de passe</a></li>
         <li class="nav-item"><a href="<?= base_url(); ?>/utilisateur/deconnexion " class="nav-link">Deconnexion</a></li>
         </ul>
       <?php elseif(session()->get("profil")=="administrateur"): ?>
         <ul class="nav nav-pills">
         <li class="nav-item"><a href="<?= base_url(); ?>/administrateur" class="nav-link <?= $menuActif=="administrateurAcc"?"active":"" ?>">Acceuil</a></li>
-        <li class="nav-item"><a href="<?= base_url(); ?>/utilisateur/gestion" class="nav-link <?= $menuActif=="gestionUtilisateurs"?"active":"" ?>">Utilisateurs</a></li>
+        <li class="nav-item"><a href="<?= base_url(); ?>/administrateur/gestionUtilisateurs" class="nav-link <?= $menuActif=="gestionUtilisateurs"?"active":"" ?>">Utilisateurs</a></li>
         <li class="nav-item"><a href="<?= base_url(); ?>/utilisateur/deconnexion " class="nav-link">Deconnexion</a></li>
         </ul>
       <?php else: ?>

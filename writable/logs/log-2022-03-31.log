@@ -1309,3 +1309,25 @@ CRITICAL - 2022-03-31 23:03:03 --> Trying to access array offset on value of typ
 #7 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-03-31 23:55:10 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\tontine\app\Views\adherent\tontine.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\tontine\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\wamp64\www\tontine\app\Controllers\Adherent.php(156): view('adherent/tontin...')
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->tontine('starter-templat...')
+#6 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 23:55:15 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\tontine\app\Views\adherent\tontine.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\tontine\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\wamp64\www\tontine\app\Controllers\Adherent.php(156): view('adherent/tontin...')
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->tontine('starter-templat...')
+#6 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

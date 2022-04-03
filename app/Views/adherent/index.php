@@ -44,5 +44,47 @@
          endif; ?>
 
     </table>
+ <h2>La liste de mes tontines</h2>
+ <table class="table">
+        <tr>
+            <th>Nom</th>
+            <th>Périodicité</th>
+            <th>Date début</th>
+            <th>Nb échéances</th>
+            <th>Mes Cotisations</th>
+        </tr>
+        <?php 
+        if(!$listeMesTontines): ?>
+            <tr>
+                <td colspan="5" class="table-danger text-center"> Aucune tontine participée pour l'instant...</td>
+            </tr>
+        <?php 
+        else: 
+            foreach($listeMesTontines as $matontine): ?>
+            <tr>
+                <td> <?= $matontine['nomTontine'] ?> </td>
+                <td> <?= $matontine['periodicite'] ?> </td>
+                <td> <?= date_format(date_create($matontine['DateDebut']),'d M Y') ?> </td>
+                <td> <?= $matontine['nbEcheance'] ?> </td>
+                <td>
+                <?php 
+                                foreach($cotisations as $coti):
+                                if($coti["idTontine"]==$matontine["id"]):
+                                  
+                 ?>               <span class="badge rounded-pill bg-success">
+                                <?= date_format(date_create($coti['date']),"d/m/Y") ?>
+                                </span>
+                            <?php 
+            
+                                endif;
+                            endforeach;
+                            ?>
+                </td>
+            </tr>
+
+        <?php endforeach;
+         endif; ?>
+
+    </table>
     
   

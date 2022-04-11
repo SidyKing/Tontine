@@ -8,8 +8,9 @@
     
 
     <div class="mb-5">
-      <a href="<?= base_url(); ?>/utilisateur/inscription" class="btn btn-primary btn-lg px-4">S'inscrire</a>
+      <a href="<?= base_url(); ?>/utilisateur/inscription" class="btn btn-primary btn-lg px-4">S'inscrire</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="<?= base_url(); ?>/utilisateur/index" class="btn btn-primary btn-lg px-4">Se connecter</a>
     </div>
 
     <br>
-  
+

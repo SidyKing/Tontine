@@ -1,0 +1,34 @@
+ERROR - 2022-04-11 08:42:25 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-04-11 08:42:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/tontine/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/tontine/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/tontine/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/tontine/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /Applications/MAMP/htdocs/tontine/app/Validation/UtilisateurRules.php(12): CodeIgniter\BaseModel->first()
+#5 /Applications/MAMP/htdocs/tontine/system/Validation/Validation.php(292): App\Validation\UtilisateurRules->utilisateurValide('maman1999!', 'login,motPass', Array, NULL)
+#6 /Applications/MAMP/htdocs/tontine/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', 'maman1999!', Array, Array)
+#7 /Applications/MAMP/htdocs/tontine/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /Applications/MAMP/htdocs/tontine/app/Controllers/Utilisateur.php(32): CodeIgniter\Controller->validate(Array)
+#9 /Applications/MAMP/htdocs/tontine/system/CodeIgniter.php(825): App\Controllers\Utilisateur->index()
+#10 /Applications/MAMP/htdocs/tontine/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#11 /Applications/MAMP/htdocs/tontine/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Applications/MAMP/htdocs/tontine/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-11 08:59:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-04-11 08:59:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/tontine/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/tontine/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/tontine/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/tontine/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /Applications/MAMP/htdocs/tontine/app/Validation/UtilisateurRules.php(12): CodeIgniter\BaseModel->first()
+#5 /Applications/MAMP/htdocs/tontine/system/Validation/Validation.php(292): App\Validation\UtilisateurRules->utilisateurValide('passer', 'login,motPass', Array, NULL)
+#6 /Applications/MAMP/htdocs/tontine/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', 'passer', Array, Array)
+#7 /Applications/MAMP/htdocs/tontine/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /Applications/MAMP/htdocs/tontine/app/Controllers/Utilisateur.php(32): CodeIgniter\Controller->validate(Array)
+#9 /Applications/MAMP/htdocs/tontine/system/CodeIgniter.php(825): App\Controllers\Utilisateur->index()
+#10 /Applications/MAMP/htdocs/tontine/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#11 /Applications/MAMP/htdocs/tontine/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Applications/MAMP/htdocs/tontine/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

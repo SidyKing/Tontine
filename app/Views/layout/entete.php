@@ -10,7 +10,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
 
-    
+    <script src="js/sweetalert2.all.min.js"></script>
 
     <!-- Bootstrap core CSS -->
 <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -89,7 +89,7 @@
         <ul class="nav nav-pills">
         <li class="nav-item"><a href="<?= base_url(); ?>/administrateur" class="nav-link <?= $menuActif=="administrateurAcc"?"active":"" ?>">Acceuil</a></li>
         <li class="nav-item"><a href="<?= base_url(); ?>/administrateur/gestionUtilisateurs" class="nav-link <?= $menuActif=="gestionUtilisateurs"?"active":"" ?>">Utilisateurs</a></li>
-        <li class="nav-item"><a href="<?= base_url(); ?>/utilisateur/deconnexion " class="nav-link">Deconnexion</a></li>
+        <li class="nav-item"><a onclick="Swal.fire({icon: 'success',title: 'Bye Bye !',showConfirmButton: false})" href="<?= base_url(); ?>/utilisateur/deconnexion " class="nav-link">Deconnexion</a></li>
         </ul>
       <?php else: ?>
 

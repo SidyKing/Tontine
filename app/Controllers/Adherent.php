@@ -170,7 +170,6 @@ class Adherent extends BaseController
         $idAdherent=session()->get('id');
         $model= new TontineModel();
         $listeTontines=$model->listeTontines($idAdherent);
-
         $data['listeTontines']=$listeTontines;
 
         echo view('layout/entete',$data);

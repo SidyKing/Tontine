@@ -13,5 +13,13 @@ class UtilisateurRules
                     return $user?true:false;
 
     }
+    public function LoginExist(string $str, string $fields, array $data)
+    {
+        $model= new AdherentModel();
+        $user=$model->where("login",$data["login"])
+                    ->first();
+                    return $user?false:true;
+
+    }
 }
 ?>

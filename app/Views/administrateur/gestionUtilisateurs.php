@@ -25,16 +25,21 @@
       <div class="col-md-2 themed-grid-col"><?= $utilisateur['nom'] ?></div>
       <div class="col-md-3 themed-grid-col"><?= $utilisateur['login'] ?></div>
       <div class="col-md-2 themed-grid-col"><?= $utilisateur['profil'] ?></div>
-      <div class="col-md-3 themed-grid-col">
-        <?php if($utilisateur['block']=="0"): ?>
-          <a href="<?= base_url() ?>/administrateur/bloquer/<?= $utilisateur['id'] ?>" class="btn btn-danger">Bloquer</a>
-        <?php else: ?>  
-          <a href="<?= base_url() ?>/administrateur/debloquer/<?= $utilisateur['id'] ?>" class="btn btn-success">Débloquer</a>
-        <?php endif; ?>
+      <?php if($utilisateur['login']!=session()->get('login')): ?>
+        <div class="col-md-3 themed-grid-col">
+          <?php if($utilisateur['block']=="0"): ?>
+            <a href="<?= base_url() ?>/administrateur/bloquer/<?= $utilisateur['id'] ?>" class="btn btn-danger">Bloquer</a>
+          <?php else: ?>  
+            <a href="<?= base_url() ?>/administrateur/debloquer/<?= $utilisateur['id'] ?>" class="btn btn-success">Débloquer</a>
+          <?php endif; ?>
+          </div>
         </div>
-    </div>
-
-      <?php endforeach; ?>
+      <?php else :?>
+        <div class="col-md-3 themed-grid-col">
+            <a class="btn btn-warning">Votre compte !</a>
+          </div>
+        </div>
+      <?php endif; endforeach; ?>
 
     <style>
             .themed-grid-col {

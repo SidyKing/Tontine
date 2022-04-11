@@ -1,4 +1,3 @@
-
     <h1>Bienvenue <?= session()->get('prenom').' '.session()->get('nom') ?></h1>
     <p class="fs-5 col-md-8">Vous pouvez gèrer vos tontine, adhèrer aux tontine disonibles,
         créer de nouvelles tontines, ...
@@ -87,4 +86,15 @@
 
     </table>
     
-  
+  <script>
+    <?php if(session()->get('sweet')):?>
+      (function good(){
+        Swal.fire({
+      icon: 'success',
+      title: 'Login réussi !',
+      showConfirmButton: false,
+      timer: 1200
+    })         
+          })();
+    <?php session()->remove('sweet'); endif;?>
+  </script>

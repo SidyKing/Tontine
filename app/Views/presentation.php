@@ -10,7 +10,7 @@
 
 <h2 style="text-align:center">Notre Equipe</h2>
 <div class="row" align="center">
-  <div class="column" style="        width: 50%;
+  <div class="column" style="width: 50%;
         margin-bottom: 20px;
         ">
     <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); margin: 8px;">
@@ -18,6 +18,8 @@
         <h2>Sidy M. Traoré</h2>
         <p class="title">Développeur FullStack</p>
         <p>papasidymactar.traore@uadb.edu.sn</p>
+        <img src="<?=base_url().'/img/sidy.jpg';?>"  height="500px" width="400px" />
+        <p> </p>
         <p><a class="btn" href="mailto:papasidymactar.traore@uadb.edu.sn" style="border: none;
             outline: 0;
             display: inline-block;
@@ -42,6 +44,8 @@
         <h2>Abdoulaye Ndiaye</h2>
         <p class="title">Développeur FullStack</p>
         <p>abdoulaye.ndiaye@uadb.edu.sn</p>
+        <img src="<?=base_url().'/img/abdoulaye.jpg';?>"  height="500px" width="400px" />
+        <p> </p>
         <p><a class="btn"  href="mailto:abdoulaye.ndiaye@uadb.edu.sn" style="border: none;
             outline: 0;
             display: inline-block;

@@ -45,6 +45,7 @@ class Utilisateur extends BaseController
                 ];
                 if($user['block']=='0'){
                     session()->set($dataSession);
+                    session()->set('sweet','oui');
                     return redirect()->to(base_url($user['profil']));
                 }
                 else{
@@ -68,9 +69,11 @@ class Utilisateur extends BaseController
             $reglesValid = [
                 "nom" => ["rules" => "required", "errors" => ["required" => "le nom est obligatoire"]],
                 "prenom" => ["rules" => "required", "errors" => ["required" => "le prénom est obligatoire"]],
-                "login" => ["rules" => "required|min_length[6]", "errors" => [
-                    "required" => "le login est obligatoire",
-                    "min_length" => "le login doit comporter au moins 6 caractères"
+                "login" => ["rules" => "required|LoginExist[login]|min_length[6]", 
+                    "errors" => [
+                        "required" => "le login est obligatoire",
+                        "min_length" => "le login doit comporter au moins 6 caractères",
+                        "LoginExist" => "Cet email existe déjà"
                 ]],
                 "motPasse" => [
                     "rules" => "required|min_length[6]",

@@ -27,6 +27,9 @@ class TontineModel extends Model{
             $this->whereNotIn("id",$idTon);
         return $this->findAll();
         }
+        else{
+            return $this->findAll();
+        }
             
     }
     function mesTontines($idAdherent)

@@ -71,3 +71,16 @@
         </div>
       </div>
     </div>
+
+    <script>
+    <?php if(session()->get('sweet')):?>
+      (function good(){
+        Swal.fire({
+      icon: 'success',
+      title: 'Login réussi !',
+      showConfirmButton: false,
+      timer: 1200
+    })         
+          })();
+    <?php session()->remove('sweet'); endif;?>
+  </script>

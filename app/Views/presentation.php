@@ -18,7 +18,7 @@
         <h2>Sidy M. Traoré</h2>
         <p class="title">Développeur FullStack</p>
         <p>papasidymactar.traore@uadb.edu.sn</p>
-        <img src="<?=base_url().'/img/sidy.jpg';?>"  height="500px" width="400px" />
+        <img src="<?=base_url().'/img/sidy.jpg';?>"  height="500px" width="370px" />
         <p> </p>
         <p><a class="btn" href="mailto:papasidymactar.traore@uadb.edu.sn" style="border: none;
             outline: 0;
@@ -44,7 +44,7 @@
         <h2>Abdoulaye Ndiaye</h2>
         <p class="title">Développeur FullStack</p>
         <p>abdoulaye.ndiaye@uadb.edu.sn</p>
-        <img src="<?=base_url().'/img/abdoulaye.jpg';?>"  height="500px" width="400px" />
+        <img src="<?=base_url().'/img/abdoulaye.jpg';?>"  height="500px" width="370px" />
         <p> </p>
         <p><a class="btn"  href="mailto:abdoulaye.ndiaye@uadb.edu.sn" style="border: none;
             outline: 0;

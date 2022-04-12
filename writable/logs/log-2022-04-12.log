@@ -1,0 +1,67 @@
+CRITICAL - 2022-04-12 09:43:19 --> Undefined variable: tontine
+#0 C:\wamp64\www\tontine\app\Views\administrateur\notifications.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\t...', 31, Array)
+#1 C:\wamp64\www\tontine\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('administrateur/...', Array, true)
+#4 C:\wamp64\www\tontine\app\Controllers\Administrateur.php(88): view('administrateur/...')
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Administrateur->notifications()
+#6 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 09:48:53 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\tontine\app\Controllers\Adherent.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\t...', 126, Array)
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('js', 'sweetalert2.all...')
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 09:48:53 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\tontine\app\Controllers\Adherent.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\t...', 126, Array)
+#1 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->modifierTontine('starter-templat...')
+#2 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 09:48:58 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\tontine\app\Views\adherent\tontine.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\tontine\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\wamp64\www\tontine\app\Controllers\Adherent.php(164): view('adherent/tontin...')
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->tontine('starter-templat...')
+#6 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 09:48:58 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\tontine\app\Views\adherent\tontine.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\tontine\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\wamp64\www\tontine\app\Controllers\Adherent.php(164): view('adherent/tontin...')
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Adherent->tontine('js', 'sweetalert2.all...')
+#6 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 11:22:31 --> Undefined variable: menu_items
+#0 C:\wamp64\www\tontine\app\Views\administrateur\notifications.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\t...', 31, Array)
+#1 C:\wamp64\www\tontine\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('administrateur/...', Array, true)
+#4 C:\wamp64\www\tontine\app\Controllers\Administrateur.php(88): view('administrateur/...')
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Administrateur->notifications()
+#6 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 11:57:04 --> Invalid file: administrateur/gestionMotPasse.php
+#0 C:\wamp64\www\tontine\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrateur/...')
+#1 C:\wamp64\www\tontine\system\Common.php(1089): CodeIgniter\View\View->render('administrateur/...', Array, true)
+#2 C:\wamp64\www\tontine\app\Controllers\Administrateur.php(45): view('administrateur/...')
+#3 C:\wamp64\www\tontine\system\CodeIgniter.php(825): App\Controllers\Administrateur->gestionMotPasse()
+#4 C:\wamp64\www\tontine\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#5 C:\wamp64\www\tontine\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

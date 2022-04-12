@@ -101,7 +101,7 @@ class Utilisateur extends BaseController
                     "profil" => "adherent"
                 ];
                 $adherent = new AdherentModel();
-                $adherent->insert($adherentData);
+                $adherent->insert($adherentData); 
                 $session = session();
                 $session->setFlashdata('success', 'Incription réussie. Connectez vous');
                 return redirect()->to('utilisateur');

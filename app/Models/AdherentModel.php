@@ -37,5 +37,6 @@ class AdherentModel extends Model{
     {
         return $this->findAll();
     }
+   
 }
 ?>

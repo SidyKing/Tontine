@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\NotificationModel;
 
 helper('html');
 /**
@@ -40,6 +41,15 @@ class Home extends BaseController
                 $data['validation'] = $this->validator;
             } else {
                 $nom=$this->request->getPost('nom');
+                $notificationData = [
+                    "nom" => $this->request->getPost('nom'),
+                    "email" => $this->request->getPost('email'),
+                    "objet" => $this->request->getPost('objet'),
+                    "message" => $this->request->getPost('message'),
+                    "lu" => "0"
+                ];
+                $notification = new NotificationModel();
+                $notification->insert($notificationData); 
                 $session = session();
                 $session->setFlashdata('successContact', "$nom, votre message a été transmis avec succes !");
                 return redirect()->to('home/contact');

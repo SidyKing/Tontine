@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="md-form mb-0">
-                    <label for="name" class="">Nom</label>
+                    <label for="name" class="">Nom Complet</label>
                         <input type="text" id="name" name="nom" class="form-control">
                     </div>
                 </div>
